@@ -12,7 +12,7 @@
         android:layout_marginBottom="60dp"
         android:text="Lo siente ha perdido"
         android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/textFinal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -31,10 +31,11 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
         android:layout_marginBottom="92dp"
         android:text="Salir"
+        android:onClick="salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

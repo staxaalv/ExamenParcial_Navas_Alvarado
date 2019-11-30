@@ -29,4 +29,7 @@ public class Perder extends AppCompatActivity {
         Intent intent= new Intent(this,MainActivity.class);
         startActivity(intent);
     }
+    public void salir(View v){
+        finishAffinity();
+    }
 }

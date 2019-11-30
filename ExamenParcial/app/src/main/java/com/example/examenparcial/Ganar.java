@@ -20,4 +20,7 @@ public class Ganar extends AppCompatActivity {
         MainActivity.generarAleatorio();
         MainActivity.contador=0;
     }
+    public void salir(View v){
+        finishAffinity();
+    }
 }
