@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -56,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
         MainActivity.pos.remove(0);
         startActivity(intent);
         System.out.println(MainActivity.pos);
+    }
+    public void instrucciones(View view){
+        Toast toast1 =Toast.makeText(getApplicationContext(),"INSTRUCCIONES:Conteste 5 preguntas para ganar, caso contrario puede intentarlo", Toast.LENGTH_SHORT);
+        toast1.show();
     }
 
 
